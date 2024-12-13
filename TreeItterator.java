@@ -1,13 +1,14 @@
 package collections;
 
+
 import java.util.Iterator;
 import java.util.Map;
-import java.util.LinkedHashMap;
+import java.util.TreeMap;
 
-public class LinkedHashMapIterator {
+public class TreeItterator {
 
 	public static void main(String[] args) {
-		Map<Integer,String> map = new LinkedHashMap();
+		Map<Integer,String> map = new TreeMap();
 		map.put(1, "Momo Ayase");
 		map.put(2, "Turbo Granny");
 		map.put(3, "Ken Takakura");

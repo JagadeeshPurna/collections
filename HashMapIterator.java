@@ -2,17 +2,17 @@ package collections;
 
 import java.util.Iterator;
 import java.util.Map;
-import java.util.LinkedHashMap;
+import java.util.HashMap;
 
-public class LinkedHashMapIterator {
+public class HashMapIterator {
 
 	public static void main(String[] args) {
-		Map<Integer,String> map = new LinkedHashMap();
-		map.put(1, "Momo Ayase");
-		map.put(2, "Turbo Granny");
-		map.put(3, "Ken Takakura");
+		Map<Integer,String> map = new HashMap();
+		map.put(1, "Momo ");
+		map.put(2, "Turbo ");
+		map.put(3, "Okarun");
 		map.put(4, "Aira");
-		map.put(5, "Alien");
+		map.put(5, "Jiji");
 		System.out.println(map);
 		Iterator<Map.Entry<Integer,String>> it = map.entrySet().iterator();
 		while (it.hasNext()) {
